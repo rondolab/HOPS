@@ -7,4 +7,4 @@ Author: Marie Verbanck
 Maintainer: <marie.verbanck@mssm.edu>
 Description: The PleiotropyScore package allows to compute the pleiotropy score as described in Jordan et al. The full set of pleiotropy scores computed on the UK Biobank summary statistics is available through the package using the function RunPleiotropyScoreApp().
 Imports: shiny, shinydashboard, data.table
-License: What license is it under?
+License: GPL-3
