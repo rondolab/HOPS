@@ -1,0 +1,9 @@
+Package: PleiotropyScore
+Type: Package
+Title: The PleiotropyScore package allows to compute the pleiotropy score as described in Jordan et al. 
+Version: 1.0
+Date: 2019-02-13
+Author: Marie Verbanck
+Maintainer: <marie.verbanck@mssm.edu>
+Description: The PleiotropyScore package allows to compute the pleiotropy score as described in Jordan et al. The full set of pleiotropy scores computed on the UK Biobank summary statistics is available through the package using the function RunPleiotropyScoreApp().
+License: What license is it under?
