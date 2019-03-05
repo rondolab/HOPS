@@ -20,8 +20,7 @@ Load PleiotropyScore
 library(PleiotropyScore)
 ```
 
-### 2. Example
-#### 1- run the pleiotropy score on a subset of the UK Biobank summary stats
+### 2. Example: run the pleiotropy score on a subset of the UK Biobank summary stats
 ```r
 # Load a subset of the UK Biobank summary statistics
 data(UKBiobank_ZscoresSubset)
@@ -33,8 +32,11 @@ PleiotropyScores_UKBB <- GetPleiotropyScore(ZscoreWhitenedMatrix = ZscoreMatrixW
 GlobalTest_UKBB <- PleiotropyScores_UKBB[[1]]
 PleiotropyScores_UKBB <- PleiotropyScores_UKBB[[2]]
 ```
-#### 2- visualize the full set of pleiotropy score results in the UK Biobank
+### 3. Visualize and download the full set of pleiotropy score results in the UK Biobank
 ```r
 # To run the pleiotropy score results interface
 RunPleiotropyScoreApp()
 ```
+The full set of results is also directly downloadable here:
+
+https://github.com/rondolab/PleiotropyScore/blob/master/inst/shiny-examples/PleiotropyScoreApp/www/ScoresUKbbSAIGE_AllSNPs_LDTheo.txt.tar.gz
