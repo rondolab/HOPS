@@ -50,7 +50,7 @@ shinyServer(function(input, output, session){
 ############################################################################################################
 
 	getPleiotropyScoreTable <- reactive({
-		PleiotropyScoreTable <- fread("www/ScoresUKbbSAIGE_AllSNPs_LDTheo.txt", data.table = FALSE)
+		PleiotropyScoreTable <- fread("gunzip -c www/ScoresUKbbSAIGE_AllSNPs_LDTheo.txt.tar.gz", data.table = FALSE)
 		PleiotropyScoreTable
 	})
 
