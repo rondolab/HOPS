@@ -40,3 +40,6 @@ RunPleiotropyScoreApp()
 The full set of results is also directly downloadable here:
 
 https://github.com/rondolab/PleiotropyScore/blob/master/inst/shiny-examples/PleiotropyScoreApp/www/ScoresUKbbSAIGE_AllSNPs_LDTheo.txt.tar.gz
+
+The Zscore correlation matrix for the 372 UK Biobank phenotypes is directly downloadable here:
+https://github.com/rondolab/PleiotropyScore/blob/master/inst/shiny-examples/PleiotropyScoreApp/www/UkBiobank_Zscore_CorrelationMat.xlsx
