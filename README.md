@@ -5,9 +5,9 @@ The package includes a shiny visualization tool to visualize and download the fu
 
 ### Reference
 
-Daniel Jordan*, Marie Verbanck* and Ron Do. Pervasive pleiotropy driven by extreme polygenicity in the human genome revealed by a novel quantitative analysis of summary association statistics. BioRxiv.
+Daniel Jordan*, Marie Verbanck* and Ron Do. Pervasive horizontal pleiotropy in human genetic variation is driven by extreme polygenicity of human traits and diseases. BioRxiv.
 
-<https://www.biorxiv.org/content/10.1101/311332v2>
+<https://www.biorxiv.org/content/10.1101/311332v3>
 
 ### 1. Install and load PleiotropyScore
 To install the latest development builds directly from GitHub, run this instead:
