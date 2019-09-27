@@ -1,10 +1,10 @@
-Package: PleiotropyScore
+Package: HOPS
 Type: Package
-Title: The PleiotropyScore package allows to compute the pleiotropy score as described in Jordan et al. 
+Title: The HOPS (HOrizontal Pleiotropy Score) package allows to compute the Horizontal pleiotropy score as described in Jordan et al. 
 Version: 1.0
-Date: 2019-02-13
+Date: 2019-09-26
 Author: Marie Verbanck
 Maintainer: <marie.verbanck@mssm.edu>
-Description: The PleiotropyScore package allows to compute the pleiotropy score as described in Jordan et al. The full set of pleiotropy scores computed on the UK Biobank summary statistics is available through the package using the function RunPleiotropyScoreApp().
+Description: The HOPS (HOrizontal Pleiotropy Score) package allows to compute the horizontal pleiotropy score as described in Jordan et al. The full set of pleiotropy scores computed on the UK Biobank summary statistics is available through the package using the function RunHOPSApp().
 Imports: shiny, shinydashboard, data.table
 License: GPL-3
