@@ -5,7 +5,7 @@
 	Subset of the UK Biobank summary stats.
 }
 \description{
-	Contains 3 elements 'SNPinfo_UKBB', 'ZscoreMatrix_UKBB' and 'ZscoreCorMatrix_UKBB' to compute the HOPS (HOrizontal Pleiotropy Score) on a subset of 10,000 from the UK Biobank summary stats.
+	Contains 3 elements 'SNPinfo_UKBB', 'ZscoreMatrix_UKBB' and 'ZscoreCorMatrix_UKBB' to compute the pleiotropy score on a subset of 10,000 from the UK Biobank summary stats.
 
 	SNP information for the subset of UK Biobank summary stats (10,000 SNPs).
 }
@@ -19,16 +19,16 @@
 }
 
 \references{
-    Daniel Jordan*, Marie Verbanck* and Ron Do. Pervasive pleiotropy driven by extreme polygenicity in the human genome revealed by a novel quantitative analysis of summary association statistics. BioRxiv.
+    Daniel Jordan*, Marie Verbanck* and Ron Do. HOPS: a quantitative score reveals pervasive horizontal pleiotropy in human genetic variation is driven by extreme polygenicity of human traits and diseases. Genome Biology 20, 222 (2019).
 }
 \examples{
     # Load a subset of the UK Biobank summary statistics
     data(UKBiobank_ZscoresSubset)
     # Apply the whitening procedure
     ZscoreMatrixWhitened_UKBB <- GetWhitenedZscores(ZscoreMatrix = ZscoreMatrix_UKBB, ZscoreCorMatrix = ZscoreCorMatrix_UKBB)
-    # Get the LD-corrected HOPS
-    HOPS_UKBB <- GetHOPS(ZscoreWhitenedMatrix = ZscoreMatrixWhitened_UKBB, RSids = SNPinfo_UKBB$SNPid, LDCorrected = TRUE, POLYGENICITYCorrected = FALSE, GlobalTest = TRUE)
+    # Get the LD-corrected pleiotropy score
+    PleiotropyScores_UKBB <- GetPleiotropyScore(ZscoreWhitenedMatrix = ZscoreMatrixWhitened_UKBB, RSids = SNPinfo_UKBB$SNPid, LDCorrected = TRUE, POLYGENICITYCorrected = FALSE, GlobalTest = TRUE)
     # Results
-    GlobalTest_UKBB <- HOPS_UKBB[[1]]
-    HOPS_UKBB <- HOPS_UKBB[[2]]
+    GlobalTest_UKBB <- PleiotropyScores_UKBB[[1]]
+    PleiotropyScores_UKBB <- PleiotropyScores_UKBB[[2]]
 }
