@@ -13,15 +13,15 @@ shinyServer(function(input, output, session){
 ############################################################################################################
 	output$JordanEtAl <- renderUI({
 		tagList(a(
-			"The landscape of pervasive horizontal pleiotropy in human genetic variation is driven by extreme polygenicity of human traits and diseases. Daniel M Jordan*, Marie Verbanck* and Ron Do. BioRxiv. April 2018.", 
-			href = "https://www.biorxiv.org/content/10.1101/311332v1",
+			"Daniel Jordan*, Marie Verbanck* and Ron Do. HOPS: a quantitative score reveals pervasive horizontal pleiotropy in human genetic variation is driven by extreme polygenicity of human traits and diseases. Genome Biology 20, 222 (2019).", 
+			href = "https://doi.org/10.1186/s13059-019-1844-7",
 			target = "_blank"
 		))
 	})
 	output$email <- renderUI({
 		tagList(a(
-			h5("marie.verbanck [at] mssm.edu"), 
-			href = "mailto:marie.verbanck@mssm.edu")
+			h5("ron.do [at] mssm.edu"), 
+			href = "mailto:ron.do@mssm.edu")
 		)
 	})
 	output$info <- renderUI({
