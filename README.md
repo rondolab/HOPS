@@ -5,7 +5,7 @@ The package includes a shiny visualization tool to visualize and download the fu
 
 ### Reference
 
-Daniel Jordan*, Marie Verbanck* and Ron Do. HOPS: a quantitative score reveals pervasive horizontal pleiotropy in human genetic variation is driven by extreme polygenicity of human traits and diseases. Genome Biol 20, 222 (2019).
+Daniel Jordan*, Marie Verbanck* and Ron Do. HOPS: a quantitative score reveals pervasive horizontal pleiotropy in human genetic variation is driven by extreme polygenicity of human traits and diseases. Genome Biology 20, 222 (2019).
 
 <https://doi.org/10.1186/s13059-019-1844-7>
 
