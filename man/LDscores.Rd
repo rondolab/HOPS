@@ -5,7 +5,7 @@
 	LD scores values
 }
 \description{
-	LD scores downloaded from https://data.broadinstitute.org/alkesgroup/LDSCORE/1000G_Phase3_baseline_v1.1_ldscores.tgz and compiled into a data.frame.). LD scores are used in 'GetPleiotropyScore()'
+	LD scores downloaded from <https://data.broadinstitute.org/alkesgroup/LDSCORE/1000G_Phase3_baseline_v1.1_ldscores.tgz> and compiled into a data.frame). LD scores are used in 'GetPleiotropyScore()'
 		
 }
 \usage{data("LDscores")}

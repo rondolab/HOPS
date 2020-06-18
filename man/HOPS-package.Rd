@@ -6,12 +6,12 @@
 \packageTitle{HOPS}
 }
 \description{
-\packageDescription{HOrizontal Pleiotropy Score (HOPS)}
+\packageDescription{HOPS}
 }
 \details{
 
 The DESCRIPTION file:
-\packageDescription{HOrizontal Pleiotropy Score (HOPS)}
+\packageDescription{HOPS}
 \packageIndices{HOPS}
 	The HOPS package allows to compute the HOPS (HOrizontal Pleiotropy Score) as described in Jordan et al. The full set of HOPS computed on the UK Biobank summary statistics is available through the package using the function RunHOPSApp().
 }
