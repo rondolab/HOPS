@@ -39,7 +39,7 @@ RunHOPSApp()
 ```
 The full set of results is also directly downloadable here:
 
-https://github.com/rondolab/HOPS/blob/master/inst/shiny-examples/HOPSApp/www/ScoresUKbbSAIGE_AllSNPs_LDTheo.txt.tar.gz
+https://github.com/rondolab/HOPS/raw/master/inst/shiny-examples/HOPSApp/www/ScoresUKbbSAIGE_AllSNPs_LDTheo.txt.tar.gz
 
 The Zscore correlation matrix for the 372 UK Biobank phenotypes is directly downloadable here:
-https://github.com/rondolab/HOPS/blob/master/inst/shiny-examples/HOPSApp/www/UkBiobank_Zscore_CorrelationMat.xlsx
+https://github.com/rondolab/HOPS/raw/master/inst/shiny-examples/HOPSApp/www/UkBiobank_Zscore_CorrelationMat.xlsx
