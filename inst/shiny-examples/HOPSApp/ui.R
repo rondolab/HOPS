@@ -38,8 +38,7 @@ shinyUI(dashboardPage(skin = "blue",
 				br(), br(),
 				
 				fluidRow(
-					box(title = "Description of the HOPS (HOrizontal Pleiotropy Score) results",
-  						"Horizontal pleiotropy, where one variant has independent effects on multiple traits, is important for our understanding of the genetic architecture of human phenotypes. We develop a method to quantify horizontal pleiotropy using genome-wide association summary statistics, the HOrizontal Pleiotropy Score (HOPS). We apply it to 372 heritable phenotypes measured in 361,194 UK Biobank individuals. We observe horizontal pleiotropy is pervasive throughout the human genome and especially prominent among highly polygenic phenotypes. It is detected in 24,968 variants in 7,831 loci and also enriched in active regulatory regions. Our results highlight the central role horizontal pleiotropy plays in the genetic architecture of human phenotypes.",
+					box(title = "Horizontal pleiotropy, where one variant has independent effects on multiple traits, is important for our understanding of the genetic architecture of human phenotypes. We develop a method to quantify horizontal pleiotropy using genome-wide association summary statistics and apply it to 372 heritable phenotypes measured in 361,194 UK Biobank individuals. Horizontal pleiotropy is pervasive throughout the human genome, prominent among highly polygenic phenotypes, and enriched in active regulatory regions. Our results highlight the central role horizontal pleiotropy plays in the genetic architecture of human phenotypes.",
 							solidHeader = TRUE,
   							status = "primary",
   							width = 12
