@@ -24,7 +24,7 @@
     Marie Verbanck
 }
 \section{Warning }{
-   For further computation of the pleiotropy score, only traits with a paiwise correlation level lower than 0.8 (in absolute value) should be included.
+   For further computation of the HOrizontal Pleiotropy Score (HOPS), only traits with a paiwise correlation level lower than 0.8 (in absolute value) should be included.
 }
 \examples{
     data(UKBiobank_ZscoresSubset)

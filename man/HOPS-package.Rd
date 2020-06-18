@@ -11,7 +11,7 @@
 \details{
 
 The DESCRIPTION file:
-\packageDESCRIPTION{HOrizontal Pleiotropy Score (HOPS)}
+\packageDescription{HOrizontal Pleiotropy Score (HOPS)}
 \packageIndices{HOPS}
 	The HOPS package allows to compute the HOPS (HOrizontal Pleiotropy Score) as described in Jordan et al. The full set of HOPS computed on the UK Biobank summary statistics is available through the package using the function RunHOPSApp().
 }
@@ -20,7 +20,7 @@ The DESCRIPTION file:
 	Maintainer: \packageMaintainer{HOPS}
 }
 \references{
-	Daniel Jordan*, Marie Verbanck* and Ron Do. Pervasive pleiotropy driven by extreme polygenicity in the human genome revealed by a novel quantitative analysis of summary association statistics. BioRxiv.
+	Daniel Jordan*, Marie Verbanck* and Ron Do. HOPS: a quantitative score reveals pervasive horizontal pleiotropy in human genetic variation is driven by extreme polygenicity of human traits and diseases. Genome Biology 20, 222 (2019).
 }
 \keyword{Horizontal pleiotropy}
 \examples{
