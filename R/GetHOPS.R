@@ -11,9 +11,10 @@ GetHOPS <- function(ZscoreWhitenedMatrix, RSids, LDCorrected = FALSE, POLYGENICI
 	if(LDCorrected){
 		cat("using LD scores from https://data.broadinstitute.org/alkesgroup/LDSCORE/1000G_Phase3_baseline_v1.1_ldscores.tgz\n")
 		data(LDscores)
-		warning("Matching LD scores on RSids, please make sure the SNPs are in build 38.\n")
+		warning("Matching LD scores on RSids, please make sure the SNPs are in build 37.\n")
 		LDscores <- LDscores[match(RSids, LDscores$SNP), ]
-
+		
+		if(any(is.na(LDscores$baseL2)))
 		warning(paste0(100 * sum(is.na(LDscores$baseL2)) / nrow(LDscores), "% of the SNPs will not be scored because of lacking LD scores.\n"))
 		getLDCorrectedScore <- function(Pn, Pm, LDscores = LDscores){
 			modPn <- lm(Pn ~ LDscores$baseL2)
